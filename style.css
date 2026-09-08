@@ -163,9 +163,9 @@ figure {
   }
 
   a{
-    margin: 5px;
+    margin: 2px;
     color: white;
-    font-size: 15px;
+    font-size: 10px;
   }
 
   @media (max-width:600px) {
@@ -226,6 +226,12 @@ nav button{
     
 }
 
+a{
+
+    color: white;
+    font-size: 5px;
+  }
+
 }
 
 
@@ -238,7 +244,7 @@ nav button{
   @media (min-width:800px) {
 
     figure{
-        max-width: 620px;
+        max-width: 600px;
       }
       img{
         max-width: 620px;
@@ -279,6 +285,7 @@ nav button{
     }
 
     footer{
+        height: 10vh;
         font-size: 5px;
     }
 
@@ -288,6 +295,12 @@ nav button{
         font-size: 10px;
         
     }
+
+    a{
+   
+        color: white;
+        font-size: 10px;
+      }
 
     }
 
@@ -354,5 +367,11 @@ nav button{
         font-size: 20px;
         
     }
+
+    a{
+  
+        color: white;
+        font-size: 15px;
+      }
 
 }
