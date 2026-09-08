@@ -150,10 +150,20 @@ figure {
 
   .data{
     font-size: 30px;
-    color: rgb(62, 62, 150);
+    color: rgb(40, 40, 151);
     margin-right: 1200px;
     font-family: fantasy;
     font-weight: 50
+  }
+  
+  address{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  a{
+    color: white;
   }
 
   @media (max-width:600px) {
